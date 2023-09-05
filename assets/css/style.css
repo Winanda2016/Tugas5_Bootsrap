@@ -34,11 +34,9 @@
 #carouselExampleCaptions .container {
     text-align: center;
     background: rgba(255, 255, 255, 0.644);
-    padding: 30px;
-    padding-bottom: 30px;
-    /* margin-bottom: 150px; */
-    margin: 0px 150px 150px 150px;;
-    border-top: 4px solid rgba(60, 60, 60, 0.8);
+    padding: 30px 100px 30px 100px;
+    margin: 0px 150px 100px 150px;;
+    border-top: 4px solid #3fbbc0;
 }
 
 @media (max-width: 1200px) {
@@ -90,4 +88,99 @@
     #carouselExampleCaptions {
       height: 160vh;
     }
-  }
+}
+
+/* -------------------------------------------------------------------------- */
+.card{
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  border-top: 4px solid #3fbbc0;
+  box-shadow: 1px 1px 10px 1px rgb(219, 219, 219);
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.title :after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #3fbbc0;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.foto img{
+  width:250px;
+  height: 250px;
+  border: 2px solid #3fbbc0;
+  border-radius: 10px;
+}
+
+ul{
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+table{
+  text-align: center;
+  width: 70%;
+  box-shadow: 1px 1px 10px 1px rgb(219, 219, 219);
+}
+
+.gallery img{
+  width: 32%;
+  margin: 20px;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.342);
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.sosmed ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sosmed li{
+  margin-bottom: 10px;
+
+}
+
+.sosmed{
+  max-height: 100%;
+}
+
+.sosmed a{
+  text-decoration: none;
+  color: #4d4d4d;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.sosmed a:hover{
+  color: #0F1E7B;
+  text-decoration: underline;
+}
+
+.collapse li{
+  margin-right: 20px;
+}
+
+.collapse a:hover{
+  color: #b9b9b9;
+  background-color: white;
+}
